@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'tunnelblick' do
-  version = '3.3.4'
+  version = '3.5.0_build_4265'
   it do
     should contain_package('Tunnelblick').with({
       :provider => 'appdmg',
